@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View previous website audit reports, track SEO health score progression over time, and access archived crawl logs.">
+  <title>Audit History — SEO Health Auditor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" aria-label="SEO Health Auditor Home">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </div>
+        <span>SEO Health Auditor</span>
+        <span class="brand-badge">Academic Project</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="audit-results.html" class="nav-link">Audit</a></li>
+          <li><a href="history.html" class="nav-link active">History</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          New Audit
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Page Header -->
+      <section class="section-header">
+        <span class="section-tag">Archive &amp; Analytics</span>
+        <h1 class="section-title">Audit History</h1>
+        <p class="section-subtitle">
+          Review historical website scans, track SEO health score improvements, and compare past broken link metrics.
+        </p>
+      </section>
+
+      <!-- History Summary Metrics -->
+      <section class="metrics-grid" aria-label="Historical Summary Statistics">
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Total Audits Run</span>
+            <span class="metric-value">6</span>
+            <span class="metric-subtext">Past 30 days</span>
+          </div>
+          <div class="metric-icon-box blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 20v-6M6 20V10M18 20V4"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Average SEO Score</span>
+            <span class="metric-value" style="color: var(--primary);">79%</span>
+            <span class="metric-subtext" style="color: var(--success-dark);">+4% increase</span>
+          </div>
+          <div class="metric-icon-box success">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 10 18"></polyline>
+              <polyline points="17 6 23 6 23 12"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Total Links Audited</span>
+            <span class="metric-value">1,482</span>
+            <span class="metric-subtext">Across 305 pages</span>
+          </div>
+          <div class="metric-icon-box indigo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Broken Links Logged</span>
+            <span class="metric-value" style="color: var(--danger-dark);">60</span>
+            <span class="metric-subtext" style="color: var(--danger);">Actionable fixes</span>
+          </div>
+          <div class="metric-icon-box danger">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter and Search Bar -->
+      <section class="filter-bar" aria-label="Search and Filter Audits">
+        <div class="search-box-wrapper">
+          <span class="search-box-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
+          <label for="search-domain" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Search domain</label>
+          <input 
+            type="text" 
+            id="search-domain" 
+            class="search-input" 
+            placeholder="Search domain (e.g. example.com)..."
+          >
+        </div>
+
+        <div class="filter-actions">
+          <label for="filter-status" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Filter by Status</label>
+          <select id="filter-status" class="filter-select">
+            <option value="all">All Statuses</option>
+            <option value="completed">Completed</option>
+            <option value="in-progress">In Progress</option>
+            <option value="failed">Failed</option>
+          </select>
+
+          <label for="sort-by" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Sort by</label>
+          <select id="sort-by" class="filter-select">
+            <option value="date-desc">Newest First</option>
+            <option value="date-asc">Oldest First</option>
+            <option value="score-desc">Highest Score</option>
+            <option value="score-asc">Lowest Score</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- History Table Data Card -->
+      <section class="data-card" aria-label="Previous Audit Records">
+        <div class="data-card-header">
+          <div class="data-card-title-group">
+            <h2 class="data-card-title">Archived Audits</h2>
+            <span class="data-card-count">6 Records</span>
+          </div>
+          <div>
+            <span class="badge badge-neutral">Static Preview Data</span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Website</th>
+                <th scope="col">Date</th>
+                <th scope="col">Pages Scanned</th>
+                <th scope="col">Broken Links</th>
+                <th scope="col">SEO Score</th>
+                <th scope="col">Status</th>
+                <th scope="col" style="text-align: right;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Row 1: example.com -->
+              <tr>
+                <td>
+                  <strong>example.com</strong>
+                  <span class="table-subtext">https://example.com</span>
+                </td>
+                <td>20 Aug 2026</td>
+                <td>18</td>
+                <td>
+                  <span class="badge badge-warning" style="font-weight: 700;">7 Broken</span>
+                </td>
+                <td>
+                  <strong style="color: var(--primary);">82%</strong>
+                </td>
+                <td>
+                  <span class="badge badge-success">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Completed
+                  </span>
+                </td>
+                <td style="text-align: right;">
+                  <a href="audit-results.html" class="btn btn-secondary btn-sm">
+                    View Report
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Row 2: myportfolio.dev -->
+              <tr>
+                <td>
+                  <strong>myportfolio.dev</strong>
+                  <span class="table-subtext">https://myportfolio.dev</span>
+                </td>
+                <td>19 Aug 2026</td>
+                <td>8</td>
+                <td>
+                  <span class="badge badge-success" style="font-weight: 700;">0 Broken</span>
+                </td>
+                <td>
+                  <strong style="color: var(--success-dark);">98%</strong>
+                </td>
+                <td>
+                  <span class="badge badge-success">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Completed
+                  </span>
+                </td>
+                <td style="text-align: right;">
+                  <a href="audit-results.html" class="btn btn-secondary btn-sm">
+                    View Report
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Row 3: techblog.io -->
+              <tr>
+                <td>
+                  <strong>techblog.io</strong>
+                  <span class="table-subtext">https://techblog.io</span>
+                </td>
+                <td>18 Aug 2026</td>
+                <td>45</td>
+                <td>
+                  <span class="badge badge-success" style="font-weight: 700;">2 Broken</span>
+                </td>
+                <td>
+                  <strong style="color: var(--success-dark);">94%</strong>
+                </td>
+                <td>
+                  <span class="badge badge-success">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Completed
+                  </span>
+                </td>
+                <td style="text-align: right;">
+                  <a href="audit-results.html" class="btn btn-secondary btn-sm">
+                    View Report
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Row 4: acmecorp.com -->
+              <tr>
+                <td>
+                  <strong>acmecorp.com</strong>
+                  <span class="table-subtext">https://acmecorp.com</span>
+                </td>
+                <td>16 Aug 2026</td>
+                <td>32</td>
+                <td>
+                  <span class="badge badge-warning" style="font-weight: 700;">9 Broken</span>
+                </td>
+                <td>
+                  <strong style="color: var(--primary);">74%</strong>
+                </td>
+                <td>
+                  <span class="badge badge-success">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Completed
+                  </span>
+                </td>
+                <td style="text-align: right;">
+                  <a href="audit-results.html" class="btn btn-secondary btn-sm">
+                    View Report
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Row 5: ecommerce-demo.org -->
+              <tr>
+                <td>
+                  <strong>ecommerce-demo.org</strong>
+                  <span class="table-subtext">https://ecommerce-demo.org</span>
+                </td>
+                <td>14 Aug 2026</td>
+                <td>82</td>
+                <td>
+                  <span class="badge badge-critical" style="font-weight: 700;">14 Broken</span>
+                </td>
+                <td>
+                  <strong style="color: var(--warning-dark);">68%</strong>
+                </td>
+                <td>
+                  <span class="badge badge-success">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Completed
+                  </span>
+                </td>
+                <td style="text-align: right;">
+                  <a href="audit-results.html" class="btn btn-secondary btn-sm">
+                    View Report
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Row 6: university-portal.edu -->
+              <tr>
+                <td>
+                  <strong>university-portal.edu</strong>
+                  <span class="table-subtext">https://university-portal.edu</span>
+                </td>
+                <td>11 Aug 2026</td>
+                <td>120</td>
+                <td>
+                  <span class="badge badge-critical" style="font-weight: 700;">28 Broken</span>
+                </td>
+                <td>
+                  <strong style="color: var(--danger-dark);">59%</strong>
+                </td>
+                <td>
+                  <span class="badge badge-success">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Completed
+                  </span>
+                </td>
+                <td style="text-align: right;">
+                  <a href="audit-results.html" class="btn btn-secondary btn-sm">
+                    View Report
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination Bar -->
+        <div class="pagination">
+          <div class="pagination-info">
+            Showing <strong>1</strong> to <strong>6</strong> of <strong>6</strong> entries
+          </div>
+          <div class="pagination-controls">
+            <button type="button" class="page-btn" disabled style="opacity: 0.5; cursor: not-allowed;" aria-label="Previous Page">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <a href="#" class="page-btn active">1</a>
+            <button type="button" class="page-btn" disabled style="opacity: 0.5; cursor: not-allowed;" aria-label="Next Page">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">
+            <div class="brand-icon" style="width: 28px; height: 28px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+            </div>
+            <span>SEO Health Auditor</span>
+          </div>
+          <p class="footer-desc">
+            A comprehensive web application designed to scan websites for broken hyperlinks, evaluate on-page SEO factors, and generate actionable health diagnostics.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home / Audit Input</a></li>
+            <li><a href="audit-results.html" class="footer-link">Sample Report</a></li>
+            <li><a href="history.html" class="footer-link">Audit History</a></li>
+            <li><a href="about.html" class="footer-link">About Project</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Project Scope</h4>
+          <ul class="footer-links">
+            <li><a href="audit-results.html#broken-links" class="footer-link">Broken Link Checker</a></li>
+            <li><a href="audit-results.html#seo-issues" class="footer-link">On-Page SEO Tags</a></li>
+            <li><a href="audit-results.html#health-score" class="footer-link">Health Scoring Algorithm</a></li>
+            <li><a href="about.html#architecture" class="footer-link">System Architecture</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Academic Details</h4>
+          <ul class="footer-links">
+            <li><span class="footer-link" style="cursor: default;">2nd Year B.Tech / B.E. IT</span></li>
+            <li><span class="footer-link" style="cursor: default;">Semester Project (2026)</span></li>
+            <li><span class="footer-link" style="cursor: default;">Frontend: HTML5 + CSS3</span></li>
+            <li><span class="footer-link" style="cursor: default;">Future Backend: Python / Flask</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 SEO Health Auditor — Academic Semester Project. All rights reserved.
+        </div>
+        <div>
+          <span class="footer-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            Static Frontend Stage • Clean HTML5 &amp; CSS3
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
