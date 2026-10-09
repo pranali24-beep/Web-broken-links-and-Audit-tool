@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detailed SEO Health and Broken Link Audit Report for https://example.com. View health score, broken link logs, and on-page SEO issues.">
+  <title>Audit Report: example.com — SEO Health Auditor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" aria-label="SEO Health Auditor Home">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </div>
+        <span>SEO Health Auditor</span>
+        <span class="brand-badge">Academic Project</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="audit-results.html" class="nav-link active">Audit</a></li>
+          <li><a href="history.html" class="nav-link">History</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-secondary btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          New Audit
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Dashboard Header Card -->
+      <section class="dashboard-header-card" aria-label="Audit Report Summary">
+        <div class="dashboard-title-group">
+          <span class="section-tag">Audit Results</span>
+          <h1>Website Audit Report</h1>
+          <div class="dashboard-meta-list">
+            <div class="meta-item">
+              <strong>Target:</strong>
+              <span class="meta-item-url">https://example.com</span>
+            </div>
+            <div class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Audit date: <strong>20 August 2026</strong></span>
+            </div>
+            <div class="meta-item">
+              <span class="badge badge-success">
+                <span class="badge-dot" aria-hidden="true"></span>
+                Completed
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-header-actions">
+          <a href="audit-results.html" class="btn btn-secondary btn-sm" title="Re-scan this website">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <polyline points="1 20 1 14 7 14"></polyline>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>
+            Re-run Audit
+          </a>
+          <button type="button" class="btn btn-primary btn-sm" onclick="window.print()" title="Print or save report as PDF">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            Export Report
+          </button>
+        </div>
+      </section>
+
+      <!-- 4 Summary Metric Cards -->
+      <section class="metrics-grid" aria-label="Key Audit Metrics">
+        <!-- Metric 1: Pages Scanned -->
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Pages Scanned</span>
+            <span class="metric-value">18</span>
+            <span class="metric-subtext">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Crawl depth: Level 3
+            </span>
+          </div>
+          <div class="metric-icon-box blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Metric 2: Links Checked -->
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Links Checked</span>
+            <span class="metric-value">124</span>
+            <span class="metric-subtext">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              98 Internal • 26 External
+            </span>
+          </div>
+          <div class="metric-icon-box indigo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Metric 3: Broken Links -->
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">Broken Links</span>
+            <span class="metric-value" style="color: var(--danger-dark);">7</span>
+            <span class="metric-subtext" style="color: var(--danger);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              5.6% failure rate
+            </span>
+          </div>
+          <div class="metric-icon-box danger">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Metric 4: SEO Health Score -->
+        <div class="metric-card">
+          <div class="metric-info">
+            <span class="metric-label">SEO Health Score</span>
+            <span class="metric-value" style="color: var(--primary);">82%</span>
+            <span class="metric-subtext" style="color: var(--success-dark);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Good overall health
+            </span>
+          </div>
+          <div class="metric-icon-box success">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Large SEO Health Score Section -->
+      <section class="score-overview-card" id="health-score" aria-label="SEO Health Score Breakdown">
+        <div class="gauge-wrapper">
+          <!-- Pure CSS Conic Gradient Ring -->
+          <div class="circular-gauge" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="SEO Health Score: 82 out of 100">
+            <div class="circular-gauge-inner">
+              <span class="gauge-score-number">82</span>
+              <span class="gauge-score-total">out of 100</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="score-details-wrapper">
+          <span class="score-status-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Good — Some Improvements Recommended
+          </span>
+
+          <h2 class="score-headline">Website SEO &amp; Link Health Score</h2>
+
+          <p class="score-description">
+            Your website demonstrates solid baseline on-page SEO structures across major pages. However, resolution of <strong>7 broken links</strong> and <strong>4 on-page tag issues</strong> is advised to maximize crawl efficiency and prevent negative search engine indexing penalties.
+          </p>
+
+          <div class="score-sub-metrics">
+            <div class="sub-metric-item">
+              <span class="sub-metric-name">Meta Tags (90%)</span>
+              <div class="sub-metric-bar-bg">
+                <div class="sub-metric-bar-fill fill-emerald" style="width: 90%;"></div>
+              </div>
+              <span class="sub-metric-val">17 / 18 Valid</span>
+            </div>
+
+            <div class="sub-metric-item">
+              <span class="sub-metric-name">Link Health (75%)</span>
+              <div class="sub-metric-bar-bg">
+                <div class="sub-metric-bar-fill fill-amber" style="width: 75%;"></div>
+              </div>
+              <span class="sub-metric-val">117 / 124 OK</span>
+            </div>
+
+            <div class="sub-metric-item">
+              <span class="sub-metric-name">Headings (85%)</span>
+              <div class="sub-metric-bar-bg">
+                <div class="sub-metric-bar-fill fill-blue" style="width: 85%;"></div>
+              </div>
+              <span class="sub-metric-val">17 / 18 H1s Present</span>
+            </div>
+
+            <div class="sub-metric-item">
+              <span class="sub-metric-name">Image Alt (78%)</span>
+              <div class="sub-metric-bar-bg">
+                <div class="sub-metric-bar-fill fill-indigo" style="width: 78%;"></div>
+              </div>
+              <span class="sub-metric-val">43 / 55 Accessible</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEO Issues Section -->
+      <section class="data-card" id="seo-issues" aria-label="Detected SEO Issues">
+        <div class="data-card-header">
+          <div class="data-card-title-group">
+            <h2 class="data-card-title">Detected SEO Issues</h2>
+            <span class="data-card-count">4 Issues Found</span>
+          </div>
+          <div>
+            <span class="badge badge-warning">Action Recommended</span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Issue</th>
+                <th scope="col">Page</th>
+                <th scope="col">Severity</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Missing Meta Description</strong>
+                  <span class="table-subtext">Search engines cannot display a custom snippet in search results.</span>
+                </td>
+                <td>
+                  <a href="#" class="table-link">/products</a>
+                </td>
+                <td>
+                  <span class="badge badge-warning">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Warning
+                  </span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Needs Attention</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Missing Image Alt Text</strong>
+                  <span class="table-subtext">2 images on this page lack descriptive alternative text for screen readers.</span>
+                </td>
+                <td>
+                  <a href="#" class="table-link">/about</a>
+                </td>
+                <td>
+                  <span class="badge badge-warning">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Warning
+                  </span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Needs Attention</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Missing H1 Tag</strong>
+                  <span class="table-subtext">No primary top-level heading found; weakens contextual relevance.</span>
+                </td>
+                <td>
+                  <a href="#" class="table-link">/contact</a>
+                </td>
+                <td>
+                  <span class="badge badge-critical">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Critical
+                  </span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Needs Attention</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Duplicate Title</strong>
+                  <span class="table-subtext">Title matches the exact title tag of the homepage.</span>
+                </td>
+                <td>
+                  <a href="#" class="table-link">/services</a>
+                </td>
+                <td>
+                  <span class="badge badge-warning">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Warning
+                  </span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Needs Attention</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Broken Links Section -->
+      <section class="data-card" id="broken-links" aria-label="Broken Hyperlinks Detected">
+        <div class="data-card-header">
+          <div class="data-card-title-group">
+            <h2 class="data-card-title">Broken Links Log</h2>
+            <span class="data-card-count">7 Broken URLs</span>
+          </div>
+          <div>
+            <span class="badge badge-critical">Requires Fix</span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Source Page</th>
+                <th scope="col">Broken URL</th>
+                <th scope="col">Status Code</th>
+                <th scope="col">Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/about</a>
+                </td>
+                <td>
+                  <code>/team</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-404">404 Not Found</span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Internal</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/blog</a>
+                </td>
+                <td>
+                  <code>https://example.com/old-page</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-404">404 Not Found</span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Internal</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/contact</a>
+                </td>
+                <td>
+                  <code>https://partner-portal.example.org/login</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-500">500 Server Error</span>
+                </td>
+                <td>
+                  <span class="badge badge-info">External</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/products</a>
+                </td>
+                <td>
+                  <code>/items/discontinued-model-v2</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-404">404 Not Found</span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Internal</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/docs</a>
+                </td>
+                <td>
+                  <code>/api/v1/endpoints-legacy</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-404">404 Not Found</span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Internal</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/services</a>
+                </td>
+                <td>
+                  <code>/case-studies/2023-overview</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-404">404 Not Found</span>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">Internal</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="#" class="table-link">/footer</a>
+                </td>
+                <td>
+                  <code>https://defunct-directory-partner.org/link</code>
+                </td>
+                <td>
+                  <span class="badge badge-code badge-code-404">404 Not Found</span>
+                </td>
+                <td>
+                  <span class="badge badge-info">External</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Page SEO Analysis Table -->
+      <section class="data-card" id="page-analysis" aria-label="Page-by-Page SEO Analysis">
+        <div class="data-card-header">
+          <div class="data-card-title-group">
+            <h2 class="data-card-title">Page-by-Page SEO Analysis</h2>
+            <span class="data-card-count">6 Sample Pages</span>
+          </div>
+          <div>
+            <span class="badge badge-info">Full Crawl Map</span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Page</th>
+                <th scope="col">Title</th>
+                <th scope="col">Meta Description</th>
+                <th scope="col">H1</th>
+                <th scope="col">Images</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>/</strong> (Home)
+                </td>
+                <td>Acme Corp — Modern Cloud Solutions</td>
+                <td>Scale your infrastructure with Acme Corp.</td>
+                <td>Next-Gen Cloud Architecture</td>
+                <td>12 (0 Missing)</td>
+                <td>
+                  <span class="badge badge-good">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Healthy
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>/about</strong>
+                </td>
+                <td>About Us — Acme Team</td>
+                <td>Learn about our company mission and engineering team.</td>
+                <td>Our Story &amp; Vision</td>
+                <td>8 (2 Missing Alt)</td>
+                <td>
+                  <span class="badge badge-warning">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Needs Review
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>/products</strong>
+                </td>
+                <td>Cloud Products &amp; Pricing</td>
+                <td><em style="color: var(--danger-dark);">Missing Description</em></td>
+                <td>All-in-one Cloud Platform</td>
+                <td>15 (0 Missing)</td>
+                <td>
+                  <span class="badge badge-warning">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Needs Review
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>/services</strong>
+                </td>
+                <td>Acme Corp — Modern Cloud Solutions <span class="badge badge-warning" style="font-size: 0.65rem;">Duplicate</span></td>
+                <td>Explore our enterprise consulting services.</td>
+                <td>Enterprise Services</td>
+                <td>6 (0 Missing)</td>
+                <td>
+                  <span class="badge badge-warning">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Needs Review
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>/contact</strong>
+                </td>
+                <td>Contact Support &amp; Sales</td>
+                <td>Get in touch with our team 24/7.</td>
+                <td><em style="color: var(--danger-dark);">Missing H1 Tag</em></td>
+                <td>4 (0 Missing)</td>
+                <td>
+                  <span class="badge badge-critical">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Critical
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>/blog</strong>
+                </td>
+                <td>Engineering Blog &amp; Tech Insights</td>
+                <td>Articles on software architecture and DevOps.</td>
+                <td>Latest Tech Articles</td>
+                <td>10 (0 Missing)</td>
+                <td>
+                  <span class="badge badge-good">
+                    <span class="badge-dot" aria-hidden="true"></span>
+                    Healthy
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">
+            <div class="brand-icon" style="width: 28px; height: 28px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+            </div>
+            <span>SEO Health Auditor</span>
+          </div>
+          <p class="footer-desc">
+            A comprehensive web application designed to scan websites for broken hyperlinks, evaluate on-page SEO factors, and generate actionable health diagnostics.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home / Audit Input</a></li>
+            <li><a href="audit-results.html" class="footer-link">Sample Report</a></li>
+            <li><a href="history.html" class="footer-link">Audit History</a></li>
+            <li><a href="about.html" class="footer-link">About Project</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Report Jump Links</h4>
+          <ul class="footer-links">
+            <li><a href="#health-score" class="footer-link">SEO Health Score</a></li>
+            <li><a href="#seo-issues" class="footer-link">Detected Issues List</a></li>
+            <li><a href="#broken-links" class="footer-link">Broken 404/500 Links</a></li>
+            <li><a href="#page-analysis" class="footer-link">Page SEO Analysis</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Academic Details</h4>
+          <ul class="footer-links">
+            <li><span class="footer-link" style="cursor: default;">2nd Year B.Tech / B.E. IT</span></li>
+            <li><span class="footer-link" style="cursor: default;">Semester Project (2026)</span></li>
+            <li><span class="footer-link" style="cursor: default;">Frontend: HTML5 + CSS3</span></li>
+            <li><span class="footer-link" style="cursor: default;">Future Backend: Python / Flask</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 SEO Health Auditor — Academic Semester Project. All rights reserved.
+        </div>
+        <div>
+          <span class="footer-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            Static Frontend Stage • Clean HTML5 &amp; CSS3
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

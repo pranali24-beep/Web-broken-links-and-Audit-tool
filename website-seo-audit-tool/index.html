@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website Broken Link & SEO Health Audit Tool - Scan websites for broken links, analyze on-page SEO issues, and generate comprehensive health scores.">
+  <title>SEO Health Auditor — Website Broken Link & SEO Audit Tool</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" aria-label="SEO Health Auditor Home">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </div>
+        <span>SEO Health Auditor</span>
+        <span class="brand-badge">Academic Project</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="audit-results.html" class="nav-link">Audit</a></li>
+          <li><a href="history.html" class="nav-link">History</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="audit-results.html" class="btn btn-primary btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Start Audit
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-badge">
+          <span class="hero-badge-pulse" aria-hidden="true"></span>
+          <span>Semester Project • Information Technology</span>
+        </div>
+
+        <h1 class="hero-title">
+          Analyze Your Website. <br>
+          <span class="hero-title-highlight">Find Issues. Improve SEO.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Scan your website for broken links and common on-page SEO issues with a simple and easy-to-understand audit.
+        </p>
+
+        <!-- Audit URL Input Box -->
+        <div class="audit-search-container">
+          <form class="audit-search-form" action="audit-results.html" method="get">
+            <div class="url-input-wrapper">
+              <span class="url-input-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </span>
+              <label for="target-url" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Website URL</label>
+              <input 
+                type="url" 
+                id="target-url" 
+                name="url" 
+                class="url-hero-input" 
+                placeholder="https://example.com" 
+                value="https://example.com"
+                required
+              >
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Start Website Audit
+            </button>
+          </form>
+        </div>
+
+        <div class="hero-quick-hints">
+          <span class="hero-quick-hint-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Automated Crawler
+          </span>
+          <span class="hero-quick-hint-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Broken Link 404/500 Detector
+          </span>
+          <span class="hero-quick-hint-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            On-Page SEO Tags Check
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Cards Section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header" style="text-align: center;">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 class="section-title">Everything You Need for Website Health</h2>
+          <p class="section-subtitle" style="margin: 0 auto;">Designed to uncover hidden technical bottlenecks and link errors that degrade search engine rankings.</p>
+        </div>
+
+        <div class="feature-grid">
+          <!-- Card 1: Broken Link Detection -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper danger">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                <line x1="2" y1="2" x2="22" y2="22"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Broken Link Detection</h3>
+            <p class="feature-description">
+              Find broken and unreachable links across your domain, including HTTP 404 dead links and 500 server errors.
+            </p>
+          </article>
+
+          <!-- Card 2: SEO Analysis -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">SEO Analysis</h3>
+            <p class="feature-description">
+              Check important on-page SEO elements including title tags, meta descriptions, H1 headings, and image alt tags.
+            </p>
+          </article>
+
+          <!-- Card 3: Health Score -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Health Score</h3>
+            <p class="feature-description">
+              Get an easy-to-understand website health score out of 100 based on weighted SEO standards and technical integrity.
+            </p>
+          </article>
+
+          <!-- Card 4: Detailed Reports -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper indigo">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Detailed Reports</h3>
+            <p class="feature-description">
+              View problems and their exact page locations clearly with categorized severity tags and actionable fix recommendations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section">
+      <div class="container">
+        <div class="section-header" style="text-align: center;">
+          <span class="section-tag">Audit Workflow</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle" style="margin: 0 auto;">A structured three-step automated pipeline designed for accurate inspection.</p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3 class="step-heading">Enter Website</h3>
+            <p class="step-text">
+              Enter the target URL you want to analyze. The tool prepares the crawler with proper request headers and domain boundaries.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3 class="step-heading">Scan Website</h3>
+            <p class="step-text">
+              The system crawls internal pages, inspects every hyperlink status code, and parses HTML meta tags, headings, and images.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3 class="step-heading">View Report</h3>
+            <p class="step-text">
+              Get a detailed health report with detected issues, categorized severities, broken link logs, and a composite health score.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">
+            <div class="brand-icon" style="width: 28px; height: 28px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+            </div>
+            <span>SEO Health Auditor</span>
+          </div>
+          <p class="footer-desc">
+            A comprehensive web application designed to scan websites for broken hyperlinks, evaluate on-page SEO factors, and generate actionable health diagnostics.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home / Audit Input</a></li>
+            <li><a href="audit-results.html" class="footer-link">Sample Report</a></li>
+            <li><a href="history.html" class="footer-link">Audit History</a></li>
+            <li><a href="about.html" class="footer-link">About Project</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Project Scope</h4>
+          <ul class="footer-links">
+            <li><a href="audit-results.html#broken-links" class="footer-link">Broken Link Checker</a></li>
+            <li><a href="audit-results.html#seo-issues" class="footer-link">On-Page SEO Tags</a></li>
+            <li><a href="audit-results.html#health-score" class="footer-link">Health Scoring Algorithm</a></li>
+            <li><a href="about.html#architecture" class="footer-link">System Architecture</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Academic Details</h4>
+          <ul class="footer-links">
+            <li><span class="footer-link" style="cursor: default;">2nd Year B.Tech / B.E. IT</span></li>
+            <li><span class="footer-link" style="cursor: default;">Semester Project (2026)</span></li>
+            <li><span class="footer-link" style="cursor: default;">Frontend: HTML5 + CSS3</span></li>
+            <li><span class="footer-link" style="cursor: default;">Future Backend: Python / Flask</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 SEO Health Auditor — Academic Semester Project. All rights reserved.
+        </div>
+        <div>
+          <span class="footer-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            Static Frontend Stage • Clean HTML5 &amp; CSS3
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
